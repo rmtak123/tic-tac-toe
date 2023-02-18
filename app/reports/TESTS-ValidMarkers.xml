@@ -1,0 +1,41 @@
+<testsuite name="ValidMarkers.Valid markers for player 1 and player 2" tests="4" errors="0" failures="0" skipped="0" time="0.001625" timestamp="2023-02-18T14:40:17.185704" hostname="rmtak123-Inspiron-3583"><testcase classname="ValidMarkers.Valid markers for player 1 and player 2" name="if player 1 chooses X, player 2 chooses O" status="passed" time="0.00049"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: if player 1 chooses X, player 2 chooses O
+    When player 1 chooses "X" ... passed in 0.000s
+    Then player 2 chooses "O" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="ValidMarkers.Valid markers for player 1 and player 2" name="if player 1 chooses O, player 2 chooses X" status="passed" time="0.000249"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: if player 1 chooses O, player 2 chooses X
+    When player 1 chooses "O" ... passed in 0.000s
+    Then player 2 chooses "X" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="ValidMarkers.Valid markers for player 1 and player 2" name="if player 1 chooses x, player 2 chooses O" status="passed" time="0.000228"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: if player 1 chooses x, player 2 chooses O
+    When player 1 chooses "x" ... passed in 0.000s
+    Then player 2 chooses "O" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="ValidMarkers.Valid markers for player 1 and player 2" name="if player 1 chooses o, player 2 chooses X" status="passed" time="0.000659"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: if player 1 chooses o, player 2 chooses X
+    When player 1 chooses "o" ... passed in 0.000s
+    Then player 2 chooses "X" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

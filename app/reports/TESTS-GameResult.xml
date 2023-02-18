@@ -1,0 +1,101 @@
+<testsuite name="GameResult.board disposal when it is over" tests="9" errors="0" failures="0" skipped="0" time="0.002855" timestamp="2023-02-18T14:40:17.175486" hostname="rmtak123-Inspiron-3583"><testcase classname="GameResult.board disposal when it is over" name="player won the game in horizontal below" status="passed" time="0.000461"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: player won the game in horizontal below
+    Given that we start with an empty board ... passed in 0.000s
+    When player with marker "X" chose positions "1", "2" and "3" ... passed in 0.000s
+    Then the game is won ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="GameResult.board disposal when it is over" name="player won the game in horizontal middle" status="passed" time="0.000307"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: player won the game in horizontal middle
+    Given that we start with an empty board ... passed in 0.000s
+    When player with marker "X" chose positions "4", "5" and "6" ... passed in 0.000s
+    Then the game is won ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="GameResult.board disposal when it is over" name="player won the game in horizontal above" status="passed" time="0.000286"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: player won the game in horizontal above
+    Given that we start with an empty board ... passed in 0.000s
+    When player with marker "X" chose positions "7", "8" and "9" ... passed in 0.000s
+    Then the game is won ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="GameResult.board disposal when it is over" name="player won the game in vertical left" status="passed" time="0.000303"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: player won the game in vertical left
+    Given that we start with an empty board ... passed in 0.000s
+    When player with marker "X" chose positions "1", "4" and "7" ... passed in 0.000s
+    Then the game is won ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="GameResult.board disposal when it is over" name="player won the game in vertical middle" status="passed" time="0.000309"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: player won the game in vertical middle
+    Given that we start with an empty board ... passed in 0.000s
+    When player with marker "X" chose positions "2", "5" and "8" ... passed in 0.000s
+    Then the game is won ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="GameResult.board disposal when it is over" name="player won the game in vertical right" status="passed" time="0.000266"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: player won the game in vertical right
+    Given that we start with an empty board ... passed in 0.000s
+    When player with marker "X" chose positions "3", "6" and "9" ... passed in 0.000s
+    Then the game is won ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="GameResult.board disposal when it is over" name="player won the game in diagonal from left" status="passed" time="0.000265"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: player won the game in diagonal from left
+    Given that we start with an empty board ... passed in 0.000s
+    When player with marker "X" chose positions "3", "5" and "7" ... passed in 0.000s
+    Then the game is won ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="GameResult.board disposal when it is over" name="player won the game in diagonal right" status="passed" time="0.000286"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: player won the game in diagonal right
+    Given that we start with an empty board ... passed in 0.000s
+    When player with marker "X" chose positions "1", "5" and "9" ... passed in 0.000s
+    Then the game is won ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="GameResult.board disposal when it is over" name="the game is tie if board is filled but not in a win position" status="passed" time="0.000372"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: the game is tie if board is filled but not in a win position
+    Given that we start with an empty board ... passed in 0.000s
+    When player1 chose positions "2", "3", "4", "8" and "9" ... passed in 0.000s
+    And player2 chose positions "1", "5", "6" and "7" ... passed in 0.000s
+    Then the game is tie ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
